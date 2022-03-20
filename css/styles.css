@@ -37,7 +37,7 @@
   color: #f1f1f1;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.masthead img {
+.flag {
   margin: 2.5rem;
 }
 .content {
@@ -405,4 +405,35 @@
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
   color: #fff;
+}
+.text-description{
+  color:#C5A572;
+  font-family: 'Italianno', cursive;
+  font-size: 40px;
+  font-weight:600px;
+  text-align: center;
+  padding: 2rem;
+}
+.book-a-table {
+  text-align: center;
+}
+.table-booking {
+  margin: 4rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.table-booking .flag {
+ margin-top: 2rem;
+}
+.col-background-overlay {
+  background-color: #222222;
+  background-image: url(../assets/images/vegetables-on-dark.png);
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  float: left;
+  color: white;
+}
+.section-title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 50px;
 }
