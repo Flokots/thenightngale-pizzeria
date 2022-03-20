@@ -430,10 +430,22 @@
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  float: left;
   color: white;
 }
 .section-title {
   font-family: 'Yeseva One', cursive;
   font-size: 50px;
 }
+.menu-background {
+  background-image: url(https://pizzeria-trattoria.themosaurus-template-kits.com/wp-content/uploads/sites/2/2020/02/pepper.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.1;
+}
+/* .book-a-table-img {
+    background-image: url(../assets/images/book-a-table-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
