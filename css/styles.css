@@ -549,3 +549,23 @@
 .pizzeria {
   margin: 2rem;
 }
+.button3{
+  background-color: white;
+  color: #ffcf81;
+  border-radius: 0%;
+  max-width: 100%;
+  padding: 0.5rem;
+  font-weight: bold;
+  padding: 15px 20px 15px 20px;
+  border-style: solid;
+  margin: 2rem;
+  letter-spacing: 1px;
+  border-color: #ffcf81;
+  border-width: 1px 1px 1px 1px;
+}
+.button3:hover{
+  background-color: #ffcf81;
+  color: white;
+  border-color: white;
+  transition: 0.7s;
+}
