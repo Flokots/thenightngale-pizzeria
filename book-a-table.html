@@ -143,7 +143,7 @@
   <!--Order Online-->
   <section class="container" id="order-section">
     <div id="mc_embed_signup" class="table-form">
-      <form>
+      <form id="order-form">
         <div class="container">
           <h2 class="table-section-title">Order Your Pizza</h2>
           <div class="menu-item text-center">
@@ -211,7 +211,7 @@
             <textarea class="form-control" id="message" placeholder="Allergies, packaging, etc..." required></textarea>
           </div>
           <div class="row">
-            <button type="submit" name="button-add-piza" id="button-add-piza" class="button1 text-uppercase">
+            <button type="submit" name="button-add-pizza" id="button-add-piza" class="button1 text-uppercase">
               Order Pizza
             </button>
           </div>
@@ -232,9 +232,9 @@
         <tbody id="pizza">
           <tr>
             <th scope="row">1</th>
-            <td id="size"></td>
-            <td id="toppings"></td>
-            <td id="crust"></td>
+            <td id="table-size"></td>
+            <td id="table-toppings"></td>
+            <td id="table-crust"></td>
             <td id="total"></td>
           </tr>
         </tbody>
