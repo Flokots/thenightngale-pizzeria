@@ -541,3 +541,11 @@
   text-align: center;
   padding: 2rem;
 }
+.pizzeria-img {
+  height: 60%;
+  width: 100%;
+  float: right;
+}
+.pizzeria {
+  margin: 2rem;
+}
