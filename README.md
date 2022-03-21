@@ -17,10 +17,9 @@ A web application for The Nightngale Pizzeria where customers order different si
 3. Choose the topping(s) I want on my pizza.
 4. Place an order for my pizza and see the total charge for it.
 5. Have an option to order as many pizzas as I want. 
-6. Have an option to order as many pizzas as I want. 
-7. Have an option to have the pizza delivered or not. If delivered I want to be alerted how much the delivery charge will be.
-8. If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying "your order will be delivered to your location".
-9. See a checkout button that when clicked shows the total amount charged for the for the orders.
+6. Have an option to have the pizza delivered or not. If delivered I want to be alerted how much the delivery charge will be.
+7. If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying "your order will be delivered to your location".
+8. See a checkout button that when clicked shows the total amount charged for the for the orders.
 
 ### Setup Instructions
 1. Fork this repository.
