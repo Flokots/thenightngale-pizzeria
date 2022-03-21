@@ -8,9 +8,3 @@ $(document).ready(function () {
     ("#orderform").reset();
   });
 })
-
-  // $("#order-button").click(function (event) {
-  //   event.preventDefault();
-  //   alert("Thank you for placing your order!")
-  //   $("#orderform").reset();
-  // })
