@@ -570,3 +570,13 @@
   border-color: white;
   transition: 0.7s;
 }
+.divider{
+  background-image: url(../assets/images/divider.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 40vh;
+}
+.divider-container {
+  margin: 0px 20px 0px 20px;
+  padding: 2rem;
+}
