@@ -523,3 +523,13 @@
   font-weight:600px;
   text-align: center;
 }
+.restaurant-heading-overlay {
+  background-image: url(../assets/images/radish.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 400px auto;
+  opacity: 0.15;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
