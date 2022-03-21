@@ -1,4 +1,4 @@
-.button1{
+.button1 {
   background-color: #ffcf81;
   color: black;
   border-radius: 0%;
@@ -12,13 +12,13 @@
   border-color: black;
   border-width: 1px 1px 1px 1px;
 }
-.button1:hover{
+.button1:hover {
   background-color: black;
   color: #ffcf81;
   border-color: #ffcf81;
   transition: 0.7s;
 }
-.button2{
+.button2 {
   background-color: black;
   color: #ffcf81;
   border-radius: 0%;
@@ -32,7 +32,7 @@
   border-color: #ffcf81;
   border-width: 1px 1px 1px 1px;
 }
-.button2:hover{
+.button2:hover {
   background-color: #ffcf81;
   color: black;
   border-color: black;
@@ -40,7 +40,7 @@
 }
 .nav-text {
   color: white;
-  font-family: 'Hurricane', cursive; 
+  font-family: "Hurricane", cursive;
 }
 .navbar {
   position: relative;
@@ -294,13 +294,15 @@
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
 }
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);
 }
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
 }
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -329,13 +331,15 @@
 .navbar-dark .navbar-brand {
   color: #fff;
 }
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.55);
 }
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -362,29 +366,33 @@
 }
 .masthead {
   background-image: url(../assets/images/homepage.jpg);
-  text-align:center;
+  text-align: center;
   color: #fff;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   height: 100%;
-  background-color: #523F36;
+  background-color: #523f36;
   position: relative;
 }
 .background-overlay {
   background-color: transparent;
   color: white;
-  background-image: linear-gradient(180deg, #1D0B03 0%, rgba(43, 19, 7, 0.6) 100%);
+  background-image: linear-gradient(
+    180deg,
+    #1d0b03 0%,
+    rgba(43, 19, 7, 0.6) 100%
+  );
   opacity: 0.9;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 .masthead-subheading {
   font-size: 48px;
-  color: #C5A572;
-  font-weight:700px;
+  color: #c5a572;
+  font-weight: 700px;
   margin-bottom: 20px;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   line-height: 2.4em;
   letter-spacing: 0px;
   padding-top: 3rem;
@@ -406,13 +414,13 @@
   text-align: center;
   padding: 2rem;
   font-size: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.text-description{
-  color:#C5A572;
-  font-family: 'Italianno', cursive;
+.text-description {
+  color: #c5a572;
+  font-family: "Italianno", cursive;
   font-size: 40px;
-  font-weight:600px;
+  font-weight: 600px;
   text-align: center;
   padding: 2rem;
 }
@@ -421,10 +429,11 @@
 }
 .table-booking {
   margin: 4rem;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .table-booking .flag {
- margin-top: 2rem;
+  margin-top: 2rem;
 }
 .col-background-overlay {
   background-color: #222222;
@@ -435,7 +444,7 @@
   color: white;
 }
 .section-title {
-  font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
   font-size: 50px;
 }
 .menu-heading {
@@ -448,16 +457,16 @@
   position: relative;
 }
 .menu-heading-overlay {
-    background-image: url(../assets/images/pepper.png);
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    opacity: 0.1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+  background-image: url(../assets/images/pepper.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
-.menu-col{
+.menu-col {
   position: relative;
   margin: 2rem;
 }
@@ -491,7 +500,7 @@
   height: 100%;
   opacity: 0.6;
 }
-.menu-content{
+.menu-content {
   text-align: center;
   height: 100%;
   width: 100%;
@@ -502,25 +511,26 @@
   background-color: black;
 }
 .menu-content-h5 {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 30px;
-  color: #C5A572;
+  color: #c5a572;
 }
 .menu-content-text {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   font-size: 16px;
 }
 .menu-item-title {
   color: white;
-  font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
   font-size: 32px;
 }
-.menu-text-description{
-  color:#C5A572;
-  font-family: 'Italianno', cursive;
+.menu-text-description {
+  color: #c5a572;
+  font-family: "Italianno", cursive;
   font-size: 40px;
-  font-weight:600px;
+  font-weight: 600px;
   text-align: center;
 }
 .pizzeria-heading-overlay {
@@ -534,9 +544,9 @@
   width: 100%;
 }
 .pizzeria-content {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
-  color: #7F7F7F;
+  color: #7f7f7f;
   font-weight: 700;
   text-align: center;
   padding: 2rem;
@@ -549,7 +559,7 @@
 .pizzeria {
   margin: 2rem;
 }
-.button3{
+.button3 {
   background-color: black;
   color: #ffcf81;
   font-weight: bolder;
@@ -564,13 +574,13 @@
   border-color: #ffcf81;
   border-width: 1px 1px 1px 1px;
 }
-.button3:hover{
+.button3:hover {
   background-color: #ffcf81;
   color: white;
   border-color: white;
   transition: 0.7s;
 }
-.divider{
+.divider {
   background-image: url(../assets/images/divider.jpg);
   background-position: center center;
   background-size: cover;
@@ -579,4 +589,46 @@
 .divider-container {
   margin: 0px 20px 0px 20px;
   padding: 2rem;
+}
+.contact-us-img {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.5;
+}
+.contact-us-background {
+  background-color: black;
+  background-image: url(../assets/images/contact-us-overlay.jpg);
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.9;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.contact-us {
+  text-align: center;
+  padding: 3rem;
+  margin: 2rem;
+  background: black;
+}
+.open-days {
+  color: white;
+  opacity: 0.9;
+  margin: 20px;
+  padding: 1.3em 1.5em 0.1em 1.5em;
+  background-color: rgba(10, 10, 10, 0.07);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contact-title {
+  padding: 2rem;
+  text-align: center;
+}
+.contact-background-overlay {
+  background-color: transparent;
+  color: white;
+  background-image: linear-gradient(120deg, #000, rgba(17, 16, 16, 0.6));
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
