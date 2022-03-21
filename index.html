@@ -18,6 +18,11 @@
   <!--CSS FILES-->
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+    </script>
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -32,12 +37,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#footer">Menu</a></li>
-          <li class="nav-item"><a class="nav-link" href="#footer">Order Online</a></li>
-          <li class="nav-item"><a class="nav-link" href="#footer">Book a Table</a></li>
-
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pizzeria">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="order.html">Order Online</a></li>
+          <li class="nav-item"><a class="nav-link" href="#table-section">Book a Table</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -57,7 +62,7 @@
           You name your crust, and we will craft it for you.
         </div>
         <div>
-          <a href="book-a-table.html">
+          <a href="#table-section">
             <button class="button1 text-uppercase">
               Book a Table
             </button>
@@ -73,7 +78,7 @@
     </div>
   </header>
   <!--Book a Table-->
-  <section class="table-booking">
+  <section class="table-booking" id="table-section">
     <div class="container">
       <div class="col-background-overlay">
         <div class="book-a-table">
@@ -177,7 +182,7 @@
     </div>
   </section>
   <!--Our Pizzeria-->
-  <section class="container">
+  <section class="container" id="pizzeria">
     <div class="container pizzeria">
       <div class="row">
         <div class="col-md-6">
@@ -226,7 +231,7 @@
     </div>
   </section>
   <!--Contact Us-->
-  <section class="contact-us">
+  <section class="contact-us" id="contact-us">
     <div class="contact-us-background">
       <div class="contact-background-overlay">
         <div class="container contact-item">
