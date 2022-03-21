@@ -219,7 +219,7 @@
       </form>
     </div>
     <div id="table-order" class="container">
-      <table class="table">
+      <table class="table" id="table">
         <thead>
           <tr>
             <th scope="col">Order No.</th>
@@ -239,10 +239,22 @@
           </tr>
         </tbody>
       </table>
+      <div>
+        <h6>Grand Total: </h6>
+        <p id="grand-total"></p>
+      </div>
       <div class="row">
-        <button type="submit"value="submit" name="button-add-pizza" id="button-add-pizza" class="button1 text-uppercase" onclick="submitForm()">
-          Add Pizza
-        </button>
+        <div class="col-md-6">
+          <button type="submit"value="submit" name="button-add-pizza" id="button-add-pizza" class="button1 text-uppercase" onclick="submitForm()">
+            Add Pizza
+          </button>
+        </div>
+        <div class="col-md-6">
+          <button type="submit"value="submit" name="button-add-pizza" id="button-add-pizza" class="button2 text-uppercase" onclick="checkout()">
+            Checkout
+          </button>
+        </div>
+        
       </div>
     </div>
   </section>
