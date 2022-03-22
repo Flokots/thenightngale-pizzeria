@@ -1,14 +1,7 @@
 $(document).ready(function () {
-//Business Logic
 
-  $("table").on('input', '.txtCal', function () {
-    // code logic here
-    var getValue = $(this).val();
-    console.log(getValue);
-  });
   $("#order-form").submit(function (event) {
-
-    //Get values from the forms
+    //Business Logic
     var pizzaSize = $("#size option:selected").val();
     var pizzaCrust = $("#crust option:selected").val();
 
@@ -43,8 +36,7 @@ $(document).ready(function () {
   })
 })
 
-
-
+//Business Logic
 function submitForm() {
   //Pizza Constructor
   function Pizza(size, toppings, crust, total, orderNo) {
@@ -78,6 +70,8 @@ function submitForm() {
 
   var newPizza = new Pizza(pizzaSize, topingsCost, pizzaCrust, total, order);
   console.log(newPizza);
+
+  //UserInterface Logic
   var newRow = '<tr><th scope="row">' + newPizza.orderNo + '</th><td id="table-size">' + $("#table-size option:selected").text() + newPizza.size + '</td><td id="table-toppings">' + $("#table-toppings option:selected").text() + newPizza.toppings + '</td><td id="table-crust">' + $("#table-crust option:selected").text() + newPizza.crust + '</td><td class="newtotal">' + newPizza.total + '</td></tr>'
 
 
@@ -87,7 +81,6 @@ function submitForm() {
 }
 
 //Business Logic
-
 var deliveryCharge = 0;
 function checkout() {
 
