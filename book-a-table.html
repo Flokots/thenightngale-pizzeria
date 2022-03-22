@@ -148,65 +148,92 @@
           <div class="menu-item text-center">
             <h5 class="menu-content-h5">Toppings</h5>
           </div>
-          <div class="row">
+          <div class="row justify-content-center">
             <div class="col-md-4">
-              <input type="checkbox" id="pepperoni" name="pepperoni" value="Pepperoni">
-              <label for="pepperoni"> Pepperoni</label><br>
-              <input type="checkbox" id="tomatoes" name="tomatoes" value="Tomatoes">
-              <label for="tomatoes"> Tomatoes</label><br>
-              <input type="checkbox" id="mozarella-cheese" name="mozarella-cheese" value="Mozarella Cheese">
-              <label for="mozarella-cheese"> Mozarella Cheese</label><br>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="pepperoni" name="pepperoni" value="Pepperoni">
+                <label class="form-check-label" for="pepperoni"> Pepperoni</label><br>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="tomatoes" name="tomatoes" value="Tomatoes">
+                <label class="form-check-label" for="tomatoes"> Tomatoes</label><br>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="mozarella-cheese" name="mozarella-cheese"
+                  value="Mozarella Cheese">
+                <label class="form-check-label" for="mozarella-cheese"> Mozarella Cheese</label><br>
+              </div>
             </div>
             <div class="col-md-4">
-              <input type="checkbox" id="basil" name="basil" value="Basil">
-              <label for="basil"> Basil</label><br>
-              <input type="checkbox" id="pickled-jalapeno" name="pickled-jalapeno" value="Pickled Jalapeno">
-              <label for="pickled-jalapeno"> Pickled Jalapeno</label><br>
-              <input type="checkbox" id="crumbled-sausage" name="crumbled-sausage" value="Crumbled Sausage">
-              <label for="crumbled-sausage"> Crumbled Sausage</label><br>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="basil" name="basil" value="Basil">
+                <label class="form-check-label" for="basil"> Basil</label><br>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="pickled-jalapeno" name="pickled-jalapeno"
+                  value="Pickled Jalapeno">
+                <label class="form-check-label" for="pickled-jalapeno"> Pickled Jalapeno</label><br>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="crumbled-sausage" name="crumbled-sausage"
+                  value="Crumbled Sausage">
+                <label class="form-check-label" for="crumbled-sausage"> Crumbled Sausage</label><br>
+              </div>
             </div>
             <div class="col-md-4">
-              <input type="checkbox" id="sundried-tomatoes" name="sundried-tomatoes" value="Sundried Tomatoes">
-              <label for="sundried-tomatoes"> Sundried Tomatoes</label><br>
-              <input type="checkbox" id="olives" name="olives" value="Olives">
-              <label for="olives"> Olives</label><br>
-              <input type="checkbox" id="artichoke-hearts" name="artichoke-hearts" value="Artichoke hearts">
-              <label for="artichoke-hearts"> Artichoke hearts</label><br>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="sundried-tomatoes" name="sundried-tomatoes"
+                  value="Sundried Tomatoes">
+                <label class="form-check-label" for="sundried-tomatoes"> Sundried Tomatoes</label><br>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="olives" name="olives" value="Olives">
+                <label class="form-check-label" for="olives"> Olives</label><br>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="artichoke-hearts" name="artichoke-hearts"
+                  value="Artichoke hearts">
+                <label class="form-check-label" for="artichoke-hearts"> Artichoke hearts</label><br>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="menu-item text-center">
-                <h5 class="menu-content-h5">Size</h5>
-              </div>
-              <div class="mc-field-group">
-                <div class="row">
-                  <select name="size" id="size">
-                    <option value="100">Small</option>
-                    <option value="200">Medium</option>
-                    <option value="300">Large</option>
-                  </select>
+          <div class="size-crust">
+            <div class="container px-4">
+              <div class="row gx-5">
+                <div class="col-md-6 gx-5">
+                  <div class="menu-item text-center">
+                    <h5 class="menu-content-h5">Size</h5>
+                  </div>
+                  <div>
+                    <div class="row px-4 size-crust-content">
+                      <select name="size" id="size" class="form-select">
+                        <option value="100">Small</option>
+                        <option value="200">Medium</option>
+                        <option value="300">Large</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="menu-item text-center">
-                <h5 class="menu-content-h5">Crust</h5>
-              </div>
-              <div class="mc-field-group">
-                <div class="row">
-                  <select name="crust" id="crust">
-                    <option value="250">Crispy</option>
-                    <option value="350">Stuffed</option>
-                    <option value="450">Gluten-free</option>
-                  </select>
+                <div class="col-md-6 gx-5">
+                  <div class="menu-item text-center">
+                    <h5 class="menu-content-h5">Crust</h5>
+                  </div>
+                  <div>
+                    <div class="row px-4 size-crust-content">
+                      <select name="crust" id="crust" class="form-select">
+                        <option value="250">Crispy</option>
+                        <option value="350">Stuffed</option>
+                        <option value="450">Gluten-free</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div>
-          <div class="mc-field-group">
+          <div>
             <textarea class="form-control" id="message" placeholder="Allergies, packaging, etc..." required></textarea>
           </div>
           <div class="row justify-content-evenly">

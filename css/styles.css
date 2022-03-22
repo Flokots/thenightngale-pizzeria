@@ -672,6 +672,10 @@
   opacity: 1;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
-.table-form {
-  text-align: center;
+.size-crust {
+  margin: 0.5rem;
+  padding: 1rem;
+}
+.size-crust-content {
+padding: 1rem;
 }
