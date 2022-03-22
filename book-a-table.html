@@ -127,9 +127,10 @@
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
             name="b_01dc080db233b45f375ad56e7_2fa3584fe8" tabindex="-1" value=""></div>
         <div class="row">
-          <div class="clear foot">
-            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button2 text-uppercase">Book a
-              Table</button>
+          <div class="d-grid gap-2">
+            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button2 text-uppercase">
+              Book a Table
+            </button>
           </div>
         </div>
       </div>
@@ -145,6 +146,42 @@
       <form id="order-form" class="form">
         <div class="container">
           <h2 class="table-section-title">Order Your Pizza</h2>
+          <div class="size-crust">
+            <div class="container px-4">
+              <div class="row gx-5">
+                <div class="col-md-6 gx-5">
+                  <div class="menu-item text-center">
+                    <h5 class="menu-content-h5">Size</h5>
+                  </div>
+                  <div>
+                    <div class="row px-4 size-crust-content">
+                      <select name="size" id="size" class="form-select">
+                        <option selected>Pick size</option>
+                        <option value="100">Small</option>
+                        <option value="200">Medium</option>
+                        <option value="300">Large</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 gx-5">
+                  <div class="menu-item text-center">
+                    <h5 class="menu-content-h5">Crust</h5>
+                  </div>
+                  <div>
+                    <div class="row px-4 size-crust-content">
+                      <select name="crust" id="crust" class="form-select">
+                        <option selected>Select Crust Preference</option>
+                        <option value="250">Crispy</option>
+                        <option value="350">Stuffed</option>
+                        <option value="450">Gluten-free</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="menu-item text-center">
             <h5 class="menu-content-h5">Toppings</h5>
           </div>
@@ -197,46 +234,12 @@
               </div>
             </div>
           </div>
-          <div class="size-crust">
-            <div class="container px-4">
-              <div class="row gx-5">
-                <div class="col-md-6 gx-5">
-                  <div class="menu-item text-center">
-                    <h5 class="menu-content-h5">Size</h5>
-                  </div>
-                  <div>
-                    <div class="row px-4 size-crust-content">
-                      <select name="size" id="size" class="form-select">
-                        <option value="100">Small</option>
-                        <option value="200">Medium</option>
-                        <option value="300">Large</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 gx-5">
-                  <div class="menu-item text-center">
-                    <h5 class="menu-content-h5">Crust</h5>
-                  </div>
-                  <div>
-                    <div class="row px-4 size-crust-content">
-                      <select name="crust" id="crust" class="form-select">
-                        <option value="250">Crispy</option>
-                        <option value="350">Stuffed</option>
-                        <option value="450">Gluten-free</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <div>
-          <div>
+          <div class="order-textarea">
             <textarea class="form-control" id="message" placeholder="Allergies, packaging, etc..." required></textarea>
           </div>
-          <div class="row justify-content-evenly">
+          <div class="row text-center">
             <div class="col-md-6">
               <button type="submit" name="button-order-pizza" id="button-order-piza" class="button1 text-uppercase">
                 Order Pizza
