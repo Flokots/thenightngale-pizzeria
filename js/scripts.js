@@ -1,4 +1,9 @@
 $(document).ready(function () {
+  $("table").on('input', '.txtCal', function () {
+    // code logic here
+     var getValue=$(this).val();
+     console.log(getValue);
+ });
   $("#order-form").submit(function (event) {
    
     //Get values from the forms
@@ -21,7 +26,6 @@ $(document).ready(function () {
     //Calculate Total Cost
     var total = parseInt(pizzaSize) + topingsCost + parseInt(pizzaCrust);
     console.log("Total: " + total);
-    var grandTotal = total;
     
 
     //Add Text to Table Row
@@ -34,10 +38,9 @@ $(document).ready(function () {
     //Prevent Default Refreshing
     event.preventDefault();
     this.reset();
-    return grandTotal;
   })
 })
-console.log("Grand Total " + grandTotal);
+
 
 function submitForm() {
   //Pizza Constructor
@@ -72,7 +75,7 @@ function submitForm() {
 
   var newPizza = new Pizza(pizzaSize, topingsCost, pizzaCrust, total, order);
   console.log(newPizza);
-  var newRow = '<tr><th scope="row">' + newPizza.orderNo + '</th><td id="table-size">' + $("#table-size option:selected").text() + newPizza.size + '</td><td id="table-toppings">' + $("#table-toppings option:selected").text() + newPizza.toppings + '</td><td id="table-crust">' + $("#table-crust option:selected").text() + newPizza.crust + '</td><td id="total">' + newPizza.total + '</td></tr>'
+  var newRow = '<tr><th scope="row">' + newPizza.orderNo + '</th><td id="table-size">' + $("#table-size option:selected").text() + newPizza.size + '</td><td id="table-toppings">' + $("#table-toppings option:selected").text() + newPizza.toppings + '</td><td id="table-crust">' + $("#table-crust option:selected").text() + newPizza.crust + '</td><td id="total" class="total">' + newPizza.total + '</td></tr>'
 
   
   $("#pizza").append(newRow);
@@ -80,14 +83,32 @@ function submitForm() {
   document.getElementById("order-form").reset();
 }
 
+
+
 var deliveryCharge = 0;
 function checkout() {
+
   let delivery = confirm("Would you like us to deliver your order?");
   if (delivery) {
     let location = prompt("Please Enter Your Location");
     alert(`Your order will be delivered to ${location}`)
+    
     return deliveryCharge = 200;
   }
+
   
 }
+
+function calculateGrandTotal() {
+  $('#total').each(function() {
+      var grandTotal = 0;
+      grandTotal += parseFloat($(this).text());
+      checkout();
+      grandTotal = grandTotal + deliveryCharge;
+      $('#grandtotal').text(grandTotal);
+             console.log("grandTotal: " + grandTotal);
+  });  
+}
+
+
 

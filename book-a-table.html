@@ -235,14 +235,20 @@
             <td id="table-size"></td>
             <td id="table-toppings"></td>
             <td id="table-crust"></td>
-            <td id="total"></td>
+            <td id="total" class="total"></td>
           </tr>
         </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="4" class="text-left">Grand Total: </th>
+            <th colspan="1" class="text-right"><span id="grandtotal"></span></th>
+          </tr>
+        </tfoot>
       </table>
-      <div>
+      <!-- <div>
         <h6>Grand Total: </h6>
         <p id="grand-total"></p>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-md-6">
           <button type="submit"value="submit" name="button-add-pizza" id="button-add-pizza" class="button1 text-uppercase" onclick="submitForm()">
@@ -250,7 +256,7 @@
           </button>
         </div>
         <div class="col-md-6">
-          <button type="submit"value="submit" name="button-add-pizza" id="button-add-pizza" class="button2 text-uppercase" onclick="checkout()">
+          <button type="submit"value="submit" name="button-add-pizza" id="button-add-pizza" class="button2 text-uppercase" onclick="calculateGrandTotal()">
             Checkout
           </button>
         </div>
