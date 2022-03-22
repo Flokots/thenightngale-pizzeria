@@ -141,8 +141,8 @@
 
   <!--Order Online-->
   <section class="container" id="order-section">
-    <div id="mc_embed_signup" class="table-form">
-      <form id="order-form">
+    <div class="table-form">
+      <form id="order-form" class="form">
         <div class="container">
           <h2 class="table-section-title">Order Your Pizza</h2>
           <div class="menu-item text-center">
@@ -209,10 +209,18 @@
           <div class="mc-field-group">
             <textarea class="form-control" id="message" placeholder="Allergies, packaging, etc..." required></textarea>
           </div>
-          <div class="row">
-            <button type="submit" name="button-order-pizza" id="button-order-piza" class="button1 text-uppercase">
-              Order Pizza
-            </button>
+          <div class="row justify-content-evenly">
+            <div class="col-md-6">
+              <button type="submit" name="button-order-pizza" id="button-order-piza" class="button1 text-uppercase">
+                Order Pizza
+              </button>
+            </div>
+            <div class="col-md-6">
+              <button type="submit" value="submit" name="button-add-pizza" id="button-add-pizza"
+                class="button2 text-uppercase" onclick="submitForm()">
+                Add Pizza
+              </button>
+            </div>
           </div>
         </div>
       </form>
@@ -244,20 +252,13 @@
           </tr>
         </tfoot>
       </table>
-      <div class="row">
-        <div class="col-md-6">
-          <button type="submit" value="submit" name="button-add-pizza" id="button-add-pizza"
-            class="button1 text-uppercase" onclick="submitForm()">
-            Add Pizza
-          </button>
-        </div>
-        <div class="col-md-6">
+      <div class="row align-items-center">
+        <div class="d-grid gap-2">
           <button type="submit" value="submit" name="button-add-pizza" id="button-add-pizza"
             class="button2 text-uppercase" onclick="calculateGrandTotal()">
             Checkout
           </button>
         </div>
-
       </div>
     </div>
   </section>
