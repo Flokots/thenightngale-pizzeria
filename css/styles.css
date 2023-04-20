@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 .button1 {
   background-color: #ffcf81;
   color: black;
@@ -469,6 +472,23 @@
 .table-booking .flag {
   margin-top: 2rem;
 }
+.book-a-table-form {
+  background-color: black;
+  background-image: url(../assets/images/pepper.png);
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.9;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.order{
+  background-image: url(../assets/images/radish.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 400px auto;
+  opacity: 0.15;
+}
 .col-background-overlay {
   background-color: #222222;
   background-image: url(../assets/images/vegetables-on-dark.png);
@@ -678,6 +698,9 @@
 }
 .size-crust-content {
   padding: 1rem;
+}
+.summary {
+  padding: 2rem;
 }
 .order-textarea {
   margin: 1rem;
